@@ -61,6 +61,7 @@
                                     <color key="titleColor" red="0.92752742767333984" green="0.2450161874294281" blue="0.45939451456069946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="notsavageText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X6U-eu-hmR"/>
                                     <action selector="savage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FVw-O8-EJO"/>
                                 </connections>
                             </button>

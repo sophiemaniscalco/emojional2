@@ -30,6 +30,15 @@ class ViewController: UIViewController {
         
         present(alertController, animated: true, completion: nil)
     }
+    
+    @IBAction func notsavageText(_ sender: UIButton) {
+        var alertController = UIAlertController(title:"Say What?!", message: "Take a deep breath and remember who you are girl!", preferredStyle: UIAlertController.Style.alert)
+        
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        
+        present(alertController, animated: true, completion: nil)
+        
     }
+}
 
 
